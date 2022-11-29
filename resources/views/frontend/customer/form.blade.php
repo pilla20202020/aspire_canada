@@ -3,12 +3,12 @@
 @section('title', 'Enquiry Form')
 
 @section('content')
-    <div class="container login-section p-4">
+    <div class="container login-section p-2">
         <div class="row d-flex align-items-center justify-content-start">
             <div class="col-md-5 pt-5 ">
                 <div class="row">
                     <div class="col-lg-12">
-                        <img src="{{asset('images/1.png')}}" class="img img-fluid pl-4 pr-4">
+                        <img src="{{asset('images/1.png')}}" class="img img-fluid">
                     </div>
                     <div class="col-lg-12 mt-2">
                         <div class="mt-10 p-2">
