@@ -1,0 +1,43 @@
+/* Form 1 */
+body {
+    background: url(../../images/banner.png)no-repeat  fixed;
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+ @media screen and (max-width: 480px) {
+    body {
+        background-color: #fff;
+        background: none;
+    }
+  }
+.form h3 {
+    font-size: 2rem;
+}
+
+.form{
+    background-color: #fff;
+}
+
+.btn-submit {
+    background-color: #00acec;
+    color: #fff;
+    border-radius: 3px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn-submit:hover {
+    color: #fff;
+
+}
+
+.logo img {
+    height: 50px;
+}
+
+
+.mt-10{
+    margin-top:10px;
+}
